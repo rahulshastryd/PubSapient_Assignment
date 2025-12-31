@@ -16,5 +16,23 @@
     "MedicineId": "ac89a6a7-b96c-43ea-8a38-8a11bccda208",
     "QuantitySold": 5,
     "SoldOn": "2025-12-31T16:26:07.0684678Z"
+  },
+  {
+    "Id": "cafc4b44-9029-407b-bc8c-401e39813c8e",
+    "MedicineId": "7e2711bd-ef61-4320-a780-63cc36dafd78",
+    "QuantitySold": 4,
+    "SoldOn": "2025-12-31T20:05:21.7024061Z"
+  },
+  {
+    "Id": "699fba05-3cff-443a-905c-87fdc436e5c1",
+    "MedicineId": "91250d9a-514c-41ec-b396-8ac3b94dd47d",
+    "QuantitySold": 5,
+    "SoldOn": "2025-12-31T20:06:39.3894534Z"
+  },
+  {
+    "Id": "850af02c-ac28-4642-a631-41d4ad32b633",
+    "MedicineId": "91250d9a-514c-41ec-b396-8ac3b94dd47d",
+    "QuantitySold": 7,
+    "SoldOn": "2025-12-31T20:07:01.3652893Z"
   }
 ]
