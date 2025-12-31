@@ -52,6 +52,23 @@ namespace Pharmacy.Domain.Entities
             Price = price;
         }
 
+        public void UpdateDetails(
+            string name,
+            string brand,
+            string notes,
+            DateTime expiryDate,
+            int quantity,
+            decimal price)
+        {
+            Name = name;
+            Brand = brand;
+            Notes = notes;
+            ExpiryDate = expiryDate;
+            Quantity = quantity;
+            Price = price;
+        }
+
+
         public void ReduceStock(int quantity)
         {
             if (quantity <= 0)

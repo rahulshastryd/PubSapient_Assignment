@@ -48,14 +48,37 @@ namespace Pharmacy.Infrastructure.Repositories
         public async Task UpdateAsync(Medicine medicine)
         {
             var medicines = await GetAllAsync(null);
+
             var index = medicines.FindIndex(m => m.Id == medicine.Id);
+            if (index == -1)
+                throw new Exception("Medicine not found");
+
             medicines[index] = medicine;
 
             await File.WriteAllTextAsync(
                 _filePath,
-                JsonSerializer.Serialize(medicines, new JsonSerializerOptions { WriteIndented = true })
+                JsonSerializer.Serialize(medicines, new JsonSerializerOptions
+                {
+                    WriteIndented = true
+                })
             );
         }
+
+        public async Task DeleteAsync(Guid id)
+        {
+            var medicines = await GetAllAsync(null);
+
+            var updated = medicines.Where(m => m.Id != id).ToList();
+
+            await File.WriteAllTextAsync(
+                _filePath,
+                JsonSerializer.Serialize(updated, new JsonSerializerOptions
+                {
+                    WriteIndented = true
+                })
+            );
+        }
+
 
     }
 }

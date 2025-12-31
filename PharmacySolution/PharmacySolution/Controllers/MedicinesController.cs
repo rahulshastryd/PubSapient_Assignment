@@ -52,5 +52,34 @@ namespace Pharmacy.API.Controllers
             await _repository.AddAsync(medicine);
             return Ok();
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(Guid id, UpdateMedicineDto dto)
+        {
+            var medicine = await _repository.GetByIdAsync(id);
+            if (medicine == null)
+                return NotFound();
+
+            medicine.UpdateDetails(
+                dto.Name,
+                dto.Brand,
+                dto.Notes,
+                dto.ExpiryDate,
+                dto.Quantity,
+                dto.Price
+            );
+
+            await _repository.UpdateAsync(medicine);
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            await _repository.DeleteAsync(id);
+            return NoContent();
+        }
+
+
     }
 }

@@ -9,6 +9,7 @@ namespace Pharmacy.Application.Interfaces
         Task AddAsync(Medicine medicine);
         Task<Medicine?> GetByIdAsync(Guid id);
         Task UpdateAsync(Medicine medicine);
+        Task DeleteAsync(Guid id);
     }
 }
 

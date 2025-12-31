@@ -1,14 +1,5 @@
 [
   {
-    "Id": "461e7ef5-94e8-497b-9d86-69c5087f8238",
-    "Name": "Dolo650",
-    "Brand": "Cipla",
-    "Notes": "Test Notes",
-    "ExpiryDate": "2026-01-01T00:00:00",
-    "Quantity": 0,
-    "Price": 90
-  },
-  {
     "Id": "ac89a6a7-b96c-43ea-8a38-8a11bccda208",
     "Name": "Calcium56",
     "Brand": "Himalaya",

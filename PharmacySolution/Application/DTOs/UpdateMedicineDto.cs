@@ -10,5 +10,7 @@ namespace Pharmacy.Application.DTOs
     string Notes,
     DateTime ExpiryDate,
     int Quantity,
-    decimal Price);
+    decimal Price
+);
+
 }
