@@ -3,8 +3,8 @@
     "Id": "ac89a6a7-b96c-43ea-8a38-8a11bccda208",
     "Name": "Calcium56",
     "Brand": "Himalaya",
-    "Notes": "test",
-    "ExpiryDate": "2027-01-01T00:00:00",
+    "Notes": "Test Hm",
+    "ExpiryDate": "2026-01-01T00:00:00Z",
     "Quantity": 5,
     "Price": 100
   },
