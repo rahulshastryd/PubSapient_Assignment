@@ -1,0 +1,65 @@
+[
+  {
+    "Id": "461e7ef5-94e8-497b-9d86-69c5087f8238",
+    "Name": "Dolo650",
+    "Brand": "Cipla",
+    "Notes": "Test Notes",
+    "ExpiryDate": "2026-01-01T00:00:00",
+    "Quantity": 0,
+    "Price": 90
+  },
+  {
+    "Id": "ac89a6a7-b96c-43ea-8a38-8a11bccda208",
+    "Name": "Calcium56",
+    "Brand": "Himalaya",
+    "Notes": "Test Hm",
+    "ExpiryDate": "2027-01-01T00:00:00",
+    "Quantity": 5,
+    "Price": 100
+  },
+  {
+    "Id": "7e2711bd-ef61-4320-a780-63cc36dafd78",
+    "Name": "Paracetomal",
+    "Brand": "Crocin",
+    "Notes": "test notw",
+    "ExpiryDate": "2027-02-17T00:00:00",
+    "Quantity": 10,
+    "Price": 100
+  },
+  {
+    "Id": "9368f3a6-7dbb-4c52-b336-d4f495382631",
+    "Name": "Ibuprofen",
+    "Brand": "Brufen",
+    "Notes": "Test",
+    "ExpiryDate": "2028-12-18T00:00:00",
+    "Quantity": 100,
+    "Price": 1000
+  },
+  {
+    "Id": "b01b3b68-5173-4226-a5e4-48443ce4d917",
+    "Name": "Pantoprazole",
+    "Brand": "Pantocid",
+    "Notes": "This is a med",
+    "ExpiryDate": "2029-03-09T00:00:00",
+    "Quantity": 60,
+    "Price": 888
+  },
+  {
+    "Id": "f78e974e-36e0-4d01-a4a5-d7facd0c8692",
+    "Name": "Citrizen",
+    "Brand": "Zyrtec",
+    "Notes": "this is med",
+    "ExpiryDate": "2027-07-07T00:00:00",
+    "Quantity": 8,
+    "Price": 80
+  },
+  {
+    "Id": "91250d9a-514c-41ec-b396-8ac3b94dd47d",
+    "Name": "Loratadine",
+    "Brand": "Claritine",
+    "Notes": "This is med",
+    "ExpiryDate": "2026-01-06T00:00:00",
+    "Quantity": 70,
+    "Price": 700
+  }
+]

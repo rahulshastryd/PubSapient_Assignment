@@ -1,0 +1,20 @@
+[
+  {
+    "Id": "6b4a78a9-62bd-45de-b2d1-928941e3eee7",
+    "MedicineId": "461e7ef5-94e8-497b-9d86-69c5087f8238",
+    "QuantitySold": 5,
+    "SoldOn": "2025-12-31T14:04:01.9357777Z"
+  },
+  {
+    "Id": "70b1cef8-7129-4ba0-979f-138b64b44104",
+    "MedicineId": "461e7ef5-94e8-497b-9d86-69c5087f8238",
+    "QuantitySold": 4,
+    "SoldOn": "2025-12-31T14:05:04.3583997Z"
+  },
+  {
+    "Id": "b4ee9c3d-668e-472c-b5fe-9aa1eefd598f",
+    "MedicineId": "ac89a6a7-b96c-43ea-8a38-8a11bccda208",
+    "QuantitySold": 5,
+    "SoldOn": "2025-12-31T16:26:07.0684678Z"
+  }
+]
